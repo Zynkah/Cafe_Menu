@@ -2,12 +2,12 @@ body {
     background: rgb(235, 233, 236);
     text-align: center;
     color: rgb(126, 81, 138);
- 
+    font-family:'Courier New', Courier, monospace;
 }
 
-h1 {
+nav {
     color: rgb(126, 81, 138);
-    font: 48px 'Courier New', Courier, monospace;
+    font: 56px 'Courier New', Courier, monospace,'bold';
     padding: 10px;
 }
 
@@ -19,7 +19,6 @@ h2 {
 
 table {
     padding-left: 20%;
-    font-family:'Courier New', Courier, monospace;
     text-align: left;
     width: 80%;
 }
@@ -36,7 +35,6 @@ tbody {
 }
 
 label {
-    font-family:'Courier New', Courier, monospace;
     font-size: 14px;
     display: block;
     text-align: center;
@@ -81,7 +79,7 @@ label {
 
 .menu {
     background-color: rgb(237, 223, 243);
-     border: double black 4px;
+     border: double rgb(126, 81, 138) 4px;
      border-radius: 5px;
      margin: 50px;
      padding-bottom: 30px;
@@ -89,7 +87,7 @@ label {
 
 .review {
     background-color: rgb(237, 223, 243);
-     border:  double black 4px;
+     border:  double rgb(126, 81, 138) 4px;
      border-radius: 5px;
      margin: 50px;
      padding-bottom: 30px;
@@ -97,7 +95,7 @@ label {
 
 .contact {
     background-color: rgb(237, 223, 243);
-    border:  double black 4px;
+    border:  double rgb(126, 81, 138) 4px;
     border-radius: 5px;
     margin: 50px; 
     padding-bottom: 30px;
@@ -114,7 +112,7 @@ a:hover {
 }
 
 img {
-    height: 60px;
+    height: 100px;
 }
 
 option {
@@ -126,12 +124,3 @@ option {
 .meal{
     font-family:'Courier New', Courier, monospace;
 }
-
-p {
-    font-family:'Courier New', Courier, monospace;
-}
-
-address {
-    font-family:'Courier New', Courier, monospace;
-}
-
